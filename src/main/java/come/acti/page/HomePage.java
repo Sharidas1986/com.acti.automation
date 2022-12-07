@@ -21,6 +21,7 @@ public class HomePage extends DriverManager{
 	
 	@FindBy(xpath = "//a[@class='userProfileLink username ']") WebElement usernameLabel;
 	@FindBy(id="logoutLink") WebElement logoutLink;
+	@FindBy(id="container_tasks") WebElement Headertaskicon;
 	
 	//******************************************************* Page Initialization ************************************************//
 	
