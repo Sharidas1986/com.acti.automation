@@ -10,7 +10,7 @@ import come.acti.page.LoginPage;
 public class LoginPageTest extends DriverManager {
 	
 
-	@Test(priority = 1)
+	@Test
 	public void testLoginPageTitle() {
 		initApplication();
 		LoginPage lp = new LoginPage();
@@ -20,7 +20,7 @@ public class LoginPageTest extends DriverManager {
 		quitDriver();
 	}
 
-	@Test(priority = 2)
+	@Test
 	public void testLoginPageImg() {
 		initApplication();
 		LoginPage lp = new LoginPage();
@@ -31,7 +31,7 @@ public class LoginPageTest extends DriverManager {
 	}
 	
 	
-	@Test(priority = 3)
+	@Test
 	public void testForgotPasswordLink()
 	{
 		initApplication();
@@ -42,7 +42,7 @@ public class LoginPageTest extends DriverManager {
 		
 	}
 	
-	@Test(priority = 4)
+	@Test
 	public void testLoginFunction()
 	{
 		initApplication();
